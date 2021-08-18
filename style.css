@@ -10,24 +10,23 @@ body {
 
 }
 
-box-login{
+.box-login {
     flex-shrink: 0;
-    background: white;
+    background: #fff;
     border-radius: 5px;
-
 }
 
 h2{
     text-align: center;
 }
 
-.form-groupe{
+.form-groupe {
     position:relative;
 
 }
 
 label{
-    margin: 5px, 23px;
+    margin: 5px 23px;
     font-size: 20px;
     padding: 10px 0 5px 0;
     display: block;
@@ -38,13 +37,13 @@ input {
     display: block;
     margin: 10px 20px 20px 20px;
     outline: 0;
-    background: cornsilk;
+    background: rgb(226,226,226);
     width: 400px;
     border: 0;
     padding: 10px 12px;
     border-radius: 3px;
     font-size: 22px;
-    border: 1px solid black;
+    border: 1px solid rgba(0,0,0,0.3);
 }
 
 .icone-verif{
@@ -67,7 +66,7 @@ button{
     margin: 30px auto;
     outline: 0;
     background: rgb(250,165,9);
-    width: 50%;
+    width: 90%;
     border: 0;
     padding: 15px;
     border-radius: 3px;
