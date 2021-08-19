@@ -93,7 +93,7 @@ button:active {
     height: 5px;
     margin: 15px 5px 20px;
     position: relative;
-    display: none;
+    /*display: none;*/
 }
 .l1 {
     background: rgb(182,182,13);
