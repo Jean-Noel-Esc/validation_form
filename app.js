@@ -20,3 +20,23 @@ inpUtilisateur.addEventListener('input', (e) => {
 
     }
 })
+
+inpMail.addEventListener('input', (e) => {
+
+    const regexEmail = /\S+@\S+\.\S+/;
+    
+    if(e.target.value.search(regexEmail) === 0){
+
+        allImg[1].style.display = "inline";
+        allImg[1].src = "ressources/check.svg";
+        allSpan[1].style.display = "none";
+
+    } else if (e.target.value.search(regexEmail) === -1){
+
+        allImg[1].style.display = "inline";
+        allImg[1].src = "ressources/error.svg";
+        allSpan[1].style.display = "inline";
+
+    }
+
+})
