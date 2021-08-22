@@ -140,4 +140,11 @@ for...in
 L'instruction for...in permet d'itérer sur les propriétés énumérables d'un objet qui ne sont pas des symboles. 
 Pour chaque propriété obtenue, on exécute une instruction (ou plusieurs grâce à un bloc d'instructions).
 
+InputEvent.inputType
+The inputType read-only property of the InputEvent interface returns the type of change made to editable content. 
+Possible changes include for example inserting, deleting, and formatting text.
+
+valeur possible:
+"deleteContentBackward"
+
 */
