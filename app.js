@@ -132,6 +132,23 @@ inpMdp.addEventListener('input', (e) => {
         }
     
 })
+//  check confirmation
+
+inpConfirme.addEventListener('input', (e) => {
+
+    if(e.target.value.length === 0){
+        allImg[3].style.display = "inline";
+        allImg[3].src = "ressources/error.svg";
+    }
+    else if(e.target.value === valeurInp){
+        allImg[3].style.display = "inline";
+        allImg[3].src = "ressources/check.svg";
+    } else {
+        allImg[3].style.display = "inline";
+        allImg[3].src = "ressources/error.svg";
+    }
+
+})
 
 
 
