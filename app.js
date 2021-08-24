@@ -134,8 +134,8 @@ inpMdp.addEventListener('input', (e) => {
 })
 //  check confirmation
 // On compare la valeur de l'input a celle de l'input  valeurInp
-// Si la target value = 0  retour error ;
-// Si la target value =  strictement celle de valeur inp  retour check;
+// Si la length de la target value = 0  retour error ;
+// Si la target value =  strictement celle de valeurInp  retour check;
 // Sinon retour error ; 
 
 inpConfirme.addEventListener('input', (e) => {
