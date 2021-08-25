@@ -31,13 +31,13 @@ inpMail.addEventListener('input', (e) => {
         allImg[1].src = "ressources/check.svg";
         allSpan[1].style.display = "none";
 
-    } else if (e.target.value.search(regexEmail) === -1){
+    } else {
 
         allImg[1].style.display = "inline";
         allImg[1].src = "ressources/error.svg";
         allSpan[1].style.display = "inline";
 
-    }
+    } 
 
 })
 
